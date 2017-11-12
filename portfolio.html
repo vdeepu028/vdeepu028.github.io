@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+<head>
+<title>Portfolio </title>
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#FCEEE4;
+	bacground-repeat:no-repeat;
+    padding: 20px;
+    font-family: Arial;
+}
+
+
+.main {
+    max-width: 1000px;
+    margin:auto;
+}
+
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+}
+
+.row {
+    margin: 8px -16px;
+}
+
+
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+
+.column {
+    float: left;
+    width: 25%;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.content {
+    background-color: #fafafa;
+
+    padding: 7px;
+}
+
+
+@media (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+p{color:#766666;}
+
+
+</style>
+</head>
+<body>
+
+<div class="main">
+
+
+<hr>
+
+<h1 style="color:#A56145;">MY PROJECTS</h1>
+
+
+
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="work1.jpg" alt="Arduino" style="width:100%">
+      <h3 style="color:#A56145">Arduino</h3>
+      <p>Arduino is an open source computer hardware and software company.Done projects on LED and used various Sensors like Sonar</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <img src="work2.jpg" alt="Gaming" style="width:100%">
+      <h3 style="color:#A56145">Game Development</h3>
+      <p>Developed Rocketball game(Team work) with unity.made various scripts and applied various colliders  </p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <img src="work3.jpg" alt="Nature" style="width:100%">
+      <h3 style="color:#A56145">Programmer</h3>
+      <p> C/C++ programmer and made project on Student Database using file handling.C/C++ are high level languages and C++ is used for object oriented programming</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <img src="work4.jpg" alt="Mountains" style="width:100%">
+      <h3 style="color:#A56145">Website Designer</h3>
+      <p>Interested in developing webpages and applied various animations like image slider and hover effects</p>
+    </div>
+  </div>
+</div>
+
+<div class="content">
+  <img src="bb.jpg" alt="Bear" style="width:100%">
+  <h3 style="color:#A56145">Some Other Work</h3>
+  <p>Video Editing..  Competative Programming.. Finding bugs in various softwares\websites..</p>
+</div>
+
+
+</div>
+
+</body>
+</html>
